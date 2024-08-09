@@ -1,9 +1,12 @@
+import Hero from "@/components/hero/Hero";
+import Skills from "@/components/projects/Projects";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <section>
-      <h1>Hi, I'm Raphael Sanchez</h1>
+      <Hero />
+      <Skills />
     </section>
   );
 }

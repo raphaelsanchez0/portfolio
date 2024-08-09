@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 * {
-  @apply text-slate-200;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(17, 16, 16);
+  @apply bg-background;
 }
